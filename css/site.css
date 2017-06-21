@@ -14,12 +14,16 @@ header {
     height: 12em;
     float: left;
     clear: right;
-    text-align: center;
     background-image: inherit;
     background-repeat: inherit;
     width: 58.78%;
+    display: flex;
+    align-items: center;    
 }
 
+.menu ul{
+    margin: auto; 
+}
 .menu li {
     display: inline;
 }
